@@ -90,8 +90,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            400g298円のマヨネーズと550g398円のマヨネーズどっちが安いか計算するアプリ
-
+            それぞれの商品の「量」と「価格（円）」を入力すると、単価を自動で計算します。単価が安い方の商品がグリーンになります。
           </p>
         </div>
         <footer className="text-center text-sm text-zinc-500 py-6">

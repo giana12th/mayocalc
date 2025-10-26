@@ -44,11 +44,11 @@ export default function Home() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex min-h-screen justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="w-full max-w-md mx-auto flex flex-col items-center justify-between px-6 bg-white dark:bg-black">
 
         <div className="flex flex-col items-center gap-6 sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+          <h1 className="pt-4 max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             mayocalc
           </h1>
 
@@ -78,6 +78,9 @@ export default function Home() {
 
           </p>
         </div>
+        <footer className="text-center text-sm text-zinc-500 py-6">
+          © 2025 giana12th. All rights reserved.
+        </footer>
       </main>
     </div>
   );

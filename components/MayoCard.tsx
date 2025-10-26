@@ -34,7 +34,7 @@ export const MayonnaiseCard: React.FC<MayonnaiseCardProps> = ({
   return (
     <div
       className={`rounded-lg shadow-md p-4 mb-4 ${
-        isCheapest ? 'bg-green-100 border-2 border-green-400' : 'bg-white border'
+        isCheapest ? 'bg-green-100 border-2 border-green-400 dark:bg-green-600' : 'bg-white border dark:bg-zinc-800'
       }`}
     >
       <h2 className="text-lg font-semibold mb-2">商品{id}</h2>

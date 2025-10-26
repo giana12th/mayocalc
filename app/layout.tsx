@@ -28,10 +28,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <footer className="text-center text-sm text-zinc-500 py-6">
-          © 2025 giana12th. All rights reserved.
-        </footer>
-
       </body>
     </html>
   );

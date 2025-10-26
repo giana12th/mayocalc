@@ -1,7 +1,8 @@
 {
   "name": "mayocalc",
   "short_name": "mayocalc",
-  "start_url": "/",
+  "start_url": "/mayocalc/",
+  "scope": "/mayocalc/",
   "display": "standalone",
   "background_color": "#8cc63f",
   "theme_color": "#8cc63f",

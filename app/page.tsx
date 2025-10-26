@@ -43,6 +43,13 @@ export default function Home() {
     B: unitPriceA !== null && unitPriceB !== null && unitPriceB < unitPriceA,
   };
 
+  const handleClear = () => {
+    setCards({
+      A: { amount: '', price: '' },
+      B: { amount: '', price: '' },
+    });
+  };
+
   return (
     <div className="flex min-h-screen justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="w-full max-w-md mx-auto flex flex-col items-center justify-between px-6 bg-white dark:bg-black">
@@ -67,6 +74,15 @@ export default function Home() {
               onChange={handleChange}
               isCheapest={isCheapest.B}
             />
+
+            <div className="mt-4 flex justify-center">
+              <button
+                onClick={handleClear}
+                className="px-4 py-2 rounded bg-zinc-200 text-zinc-800 hover:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 transition"
+              >
+                入力をリセット
+              </button>
+            </div>
           </div>
 
 

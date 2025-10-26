@@ -15,7 +15,24 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "mayocalc",
   description: "400g298円のマヨネーズと550g398円のマヨネーズどっちが安いか計算するアプリ",
-  manifest: "/manifest.json"
+  manifest: "/manifest.json",
+  openGraph: {
+    title: "mayocalc",
+    description: "400g 298円と550g 398円のマヨネーズどっちが安いか計算するアプリ",
+    url: "https://giana12th.github.io/mayocalc/",
+    siteName: "mayocalc",
+    images: [
+      {
+        url: "https://github.com/user-attachments/assets/4c414a58-2d16-4647-8981-09d05563206b",
+        width: 1200,
+        height: 630,
+        alt: "mayocalc logo",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+
 };
 
 export default function RootLayout({

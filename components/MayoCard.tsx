@@ -39,7 +39,7 @@ export const MayonnaiseCard: React.FC<MayonnaiseCardProps> = ({
     >
       <h2 className="text-lg font-semibold mb-2">商品{id}</h2>
       <div className="mb-2">
-        <label className="block text-sm text-gray-600 mb-1">量</label>
+        <label className="block text-sm text-gray-600 dark:text-zinc-50 mb-1">量</label>
         <input
           type="number"
           className="border rounded px-2 py-1 w-full"
@@ -49,7 +49,7 @@ export const MayonnaiseCard: React.FC<MayonnaiseCardProps> = ({
         />
       </div>
       <div className="mb-2">
-        <label className="block text-sm text-gray-600 mb-1">価格 (円)</label>
+        <label className="block text-sm text-gray-600 dark:text-zinc-50 mb-1">価格 (円)</label>
         <input
           type="number"
           className="border rounded px-2 py-1 w-full"
@@ -58,7 +58,7 @@ export const MayonnaiseCard: React.FC<MayonnaiseCardProps> = ({
           placeholder="例: 298"
         />
       </div>
-      <div className="text-sm text-gray-700 mt-2">
+      <div className="text-sm text-gray-700 dark:text-zinc-50 mt-2">
         単価: <span className="font-mono">{unitPrice} 円/量</span>
       </div>
     </div>
